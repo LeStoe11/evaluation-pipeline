@@ -43,4 +43,5 @@ python finetune_classification.py \
   --eval_steps $EVAL_EVERY \
   --save_steps $EVAL_EVERY \
   --overwrite_output_dir \
-  --seed $SEED
+  --seed $SEED \
+  --report_to tensorboard
